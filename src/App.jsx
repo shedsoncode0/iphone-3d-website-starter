@@ -2,6 +2,7 @@ import DisplaySection from "./components/DisplaySection";
 import Jumbotron from "./components/Jumbotron";
 import Nav from "./components/Nav";
 import SoundSection from "./components/SoundSection";
+import WebglViewer from "./components/WebglViewer";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Jumbotron />
       <SoundSection />
       <DisplaySection />
+      <WebglViewer />
     </div>
   );
 }
